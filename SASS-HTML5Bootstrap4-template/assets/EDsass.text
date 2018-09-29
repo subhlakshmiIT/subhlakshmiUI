@@ -1,0 +1,5 @@
+sass --watch "C:\wamp\www\mu-sigma\HTML Prototype\assets\scss\MS_master.scss":"C:\wamp\www\mu-sigma\HTML Prototype\assets\css\MS_master.css"
+
+Go to assets folder and run below command.
+
+sass --watch scss/master.scss:css/global.css

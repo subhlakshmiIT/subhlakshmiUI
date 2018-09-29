@@ -1,0 +1,108 @@
+/* ### general ### */
+* { margin: 0px; padding: 0px; }
+html, body { font-family: $font-family, sans-serif; font-weight: normal; font-size: 14px; color: #444; }
+input, select, textarea { font-family: $font-family, sans-serif; font-size: 13px; line-height: 17px; color: #444; }
+body { background: #fff; }
+img { border: 0px; display: block; max-width: 100%; }
+a, input { outline: none; }
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+a { transition: all 0.3s; -webkit-transition: all 0.3s; }
+
+/* ### global classes ### */
+.clear { clear: both; height: 0px; overflow: hidden; }
+
+ul, ol { list-style: none; }
+fieldset { border: 0px none; }
+strong {
+	font-family: $Bold-text;
+}
+a {
+	text-decoration: none;
+	&:focus {
+		outline: none;
+	}
+}
+
+/* Heading font size */
+h1,h2,h3,h4,h5,h6,p { margin: 0; font-weight: normal;
+	a { text-decoration: none;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+}
+h1 { }
+h2 { }
+h3 { }
+h4 { }
+h5 { }
+h6 { }
+
+/* paragraphs */
+p { }
+
+
+/* horizontal rular */
+.icon {
+	transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	display: inline-block;
+	background-repeat: no-repeat;
+	text-indent: -9999px;
+	background-image: url('../images/sprite.png');
+	&.icon-55 {
+		height: 55px;
+		width: 55px;
+	}
+	&.icon-20 {
+		height: 20px;
+		width: 20px;				
+	}
+	&.icon-40 {
+		height: 40px;
+		width: 40px;				
+	}
+	&.icon-arrow { background-position: 0 0; }
+
+}
+/* Global icons Ends */
+
+/* Buttons Styling */
+.btn {
+	text-decoration: none;
+	font-weight: $Bold-text;
+}
+
+.long-btn0 { padding-left: 0px; padding-right: 0px; }
+.long-btn5 { padding-left: 5px; padding-right: 5px; }
+.long-btn30 { padding-left: 30px; padding-right: 30px; }
+.long-btn50 { padding-left: 50px; padding-right: 50px; }
+.long-btn70 { padding-left: 70px; padding-right: 70px; }
+.long-btn100 { padding-left: 100px; padding-right: 100px; }
+
+.btn-info {
+	&:hover, &:focus {
+	}
+	&.btn-clear {
+		&:hover {
+		}
+	}
+}
+
+@media only screen and (max-width: 1199px)  {
+
+}
+
+@media only screen and (max-width: 991px)  {
+
+}
+
+@media only screen and (max-width: 767px)  {
+
+}
+
+@media only screen and (max-width: 479px)  {
+}
+
+@media only screen and (max-width: 479px)  {
+}
