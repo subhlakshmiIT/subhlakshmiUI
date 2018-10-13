@@ -42,6 +42,14 @@ h6 { }
 p { }
 
 
+.full-width { width: 100%; }
+.min-height-full { min-height: 100vh; }
+.image-bg { 
+	background-position: center center; 
+	background-repeat: no-repeat; 
+	background-size: cover; 
+}
+
 /* horizontal rular */
 .icon {
 	transition: all 0.3s;
@@ -71,6 +79,9 @@ p { }
 .btn {
 	text-decoration: none;
 	font-weight: $Bold-text;
+	&.btn-danger {
+		color: #fff;
+	}
 }
 
 .long-btn0 { padding-left: 0px; padding-right: 0px; }

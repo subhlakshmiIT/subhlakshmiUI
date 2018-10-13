@@ -1,0 +1,63 @@
+/* ####### CSS for Login Page Starts ####### */
+.loginbg { 
+	padding: 0 15px;	
+	.mylogin { 
+		margin: 0 auto; 
+		width: 640px; 
+	}
+	.panel { 
+		padding: 30px 0;
+		margin: 0; 
+		height: 100%; 
+		border: 1px solid #e2e2e2; 
+		background-color: white;
+		box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+	}
+}
+
+.error {
+	box-shadow: 1px 1px 2px 1px #717171;
+  	-moz-box-shadow: 1px 1px 2px 1px #717171;
+  	-webkit-box-shadow: 1px 1px 2px 1px #717171;
+  	background: rgba(212, 82, 82,0.9);
+    color: #ffffff;
+    display: none;
+    max-width: 240px;
+    padding: 3px 6px;
+    position: absolute;
+    right: 7px;
+    z-index: 1;
+    top: 100%;
+    top: calc(100% + 1px);
+    top: -webkit-calc(100% + 1px);
+    top: -moz-calc(100% + 1px);
+}
+.has-error{
+	p.error { display: block; }
+}
+/* ####### CSS for Login Page ends ####### */
+
+
+
+
+/* ####### CSS for Tablet and small Desktop Starts ####### */
+@media only screen and (max-width: 1366px) {
+
+}
+/* ####### CSS for Tablet and small Desktop Ends ####### */
+
+
+
+/* ####### CSS for Tablet and small Desktop Starts ####### */
+@media only screen and (max-width: 990px) {
+
+}
+/* ####### CSS for Tablet and small Desktop Ends ####### */
+
+
+
+/* ####### CSS for Mobile and Tab-mini Starts ####### */
+@media only screen and (max-width: 767px) {
+
+}
+/* ####### CSS for Mobile and Tab-mini Ends ####### */
