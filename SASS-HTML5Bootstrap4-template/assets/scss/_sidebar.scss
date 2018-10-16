@@ -1,47 +1,71 @@
-/* ####### CSS for Login Page Starts ####### */
+.has-sidebar {
+	&.open {
+		margin-left: 300px;
+	}
+}
 .slidebar {
 	position: fixed;
-	height: 100%; 
-	padding: 0 15px;
-	background: #fff;
+	left: 0;
+	top: 49px;
+	padding: 0;
+	background: #f7f7f7;
 	width: 300px;	
-	.mylogin { 
-		margin: 0 auto; 
-		width: 640px; 
+	overflow: auto;
+}
+.logout-btn {
+	background: #333;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	padding: 15px;
+	display: block;
+	width: 100%;
+	color: #fff;
+	border-top: 1px solid #999;
+	text-align: center;
+}
+.height-full-sidebar {
+	height: calc(100vh - 177px);
+	overflow: auto;
+}
+.menu-links {
+	margin: 0;
+	> li {
+		> a {
+			padding: 15px 15px;
+			display: block;
+			border-bottom: 1px solid #ddd;
+			color: #333;
+			&:hover {
+				background: #333;
+				color: #fff;
+				text-decoration: none;
+			}
+		}
 	}
-	.panel { 
-		padding: 30px 0;
-		margin: 0; 
-		height: 100%; 
-		border: 1px solid #e2e2e2; 
-		background-color: white;
-		box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+}
+.submenu-links {
+	background: #ddd;
+	> li {
+		> a {
+			padding: 10px 30px;
+			display: block;
+			color: #333;
+			&:hover {
+				background: #eee;
+				text-decoration: none;
+			}
+		}
 	}
 }
-
-.error {
-	box-shadow: 1px 1px 2px 1px #717171;
-  	-moz-box-shadow: 1px 1px 2px 1px #717171;
-  	-webkit-box-shadow: 1px 1px 2px 1px #717171;
-  	background: rgba(212, 82, 82,0.9);
-    color: #ffffff;
-    display: none;
-    max-width: 240px;
-    padding: 3px 6px;
-    position: absolute;
-    right: 7px;
-    z-index: 1;
-    top: 100%;
-    top: calc(100% + 1px);
-    top: -webkit-calc(100% + 1px);
-    top: -moz-calc(100% + 1px);
+.user-info {
+	padding: 15px;
+	background: #eee;
+	img {
+		height: 50px;
+		width: 50px;
+	}
 }
-.has-error{
-	p.error { display: block; }
-}
-/* ####### CSS for Login Page ends ####### */
-
-
 
 
 /* ####### CSS for Tablet and small Desktop Starts ####### */

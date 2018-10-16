@@ -44,11 +44,17 @@ p { }
 
 .full-width { width: 100%; }
 .min-height-full { min-height: 100vh; }
+.height-full { height: 100vh; }
 .image-bg { 
 	background-position: center center; 
 	background-repeat: no-repeat; 
 	background-size: cover; 
 }
+
+.bg-white { background: #fff; }
+.white-text { color: #fff; }
+
+.navbar-brand { padding: 0; }
 
 /* horizontal rular */
 .icon {

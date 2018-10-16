@@ -6564,10 +6564,22 @@ h1, h2, h3, h4, h5, h6, p {
 .min-height-full {
   min-height: 100vh; }
 
+.height-full {
+  height: 100vh; }
+
 .image-bg {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover; }
+
+.bg-white {
+  background: #fff; }
+
+.white-text {
+  color: #fff; }
+
+.navbar-brand {
+  padding: 0; }
 
 /* horizontal rular */
 .icon {
@@ -6662,45 +6674,63 @@ h1, h2, h3, h4, h5, h6, p {
 /* ####### CSS for Tablet and small Desktop Ends ####### */
 /* ####### CSS for Mobile and Tab-mini Starts ####### */
 /* ####### CSS for Mobile and Tab-mini Ends ####### */
-/* ####### CSS for Login Page Starts ####### */
+.has-sidebar.open {
+  margin-left: 300px; }
+
 .slidebar {
   position: fixed;
-  height: 100%;
-  padding: 0 15px;
-  background: #fff;
-  width: 300px; }
-  .slidebar .mylogin {
-    margin: 0 auto;
-    width: 640px; }
-  .slidebar .panel {
-    padding: 30px 0;
-    margin: 0;
-    height: 100%;
-    border: 1px solid #e2e2e2;
-    background-color: white;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); }
+  left: 0;
+  top: 49px;
+  padding: 0;
+  background: #f7f7f7;
+  width: 300px;
+  overflow: auto; }
 
-.error {
-  box-shadow: 1px 1px 2px 1px #717171;
-  -moz-box-shadow: 1px 1px 2px 1px #717171;
-  -webkit-box-shadow: 1px 1px 2px 1px #717171;
-  background: rgba(212, 82, 82, 0.9);
-  color: #ffffff;
-  display: none;
-  max-width: 240px;
-  padding: 3px 6px;
+.logout-btn {
+  background: #333;
   position: absolute;
-  right: 7px;
-  z-index: 1;
-  top: 100%;
-  top: calc(100% + 1px);
-  top: -webkit-calc(100% + 1px);
-  top: -moz-calc(100% + 1px); }
+  left: 0;
+  bottom: 0;
+  padding: 15px;
+  display: block;
+  width: 100%;
+  color: #fff;
+  border-top: 1px solid #999;
+  text-align: center; }
 
-.has-error p.error {
-  display: block; }
+.height-full-sidebar {
+  height: calc(100vh - 177px);
+  overflow: auto; }
 
-/* ####### CSS for Login Page ends ####### */
+.menu-links {
+  margin: 0; }
+  .menu-links > li > a {
+    padding: 15px 15px;
+    display: block;
+    border-bottom: 1px solid #ddd;
+    color: #333; }
+    .menu-links > li > a:hover {
+      background: #333;
+      color: #fff;
+      text-decoration: none; }
+
+.submenu-links {
+  background: #ddd; }
+  .submenu-links > li > a {
+    padding: 10px 30px;
+    display: block;
+    color: #333; }
+    .submenu-links > li > a:hover {
+      background: #eee;
+      text-decoration: none; }
+
+.user-info {
+  padding: 15px;
+  background: #eee; }
+  .user-info img {
+    height: 50px;
+    width: 50px; }
+
 /* ####### CSS for Tablet and small Desktop Starts ####### */
 /* ####### CSS for Tablet and small Desktop Ends ####### */
 /* ####### CSS for Tablet and small Desktop Starts ####### */
