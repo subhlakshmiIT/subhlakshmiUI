@@ -2,7 +2,7 @@
 * { margin: 0px; padding: 0px; }
 html, body { font-family: $font-family, sans-serif; font-weight: normal; font-size: 14px; color: #444; }
 input, select, textarea { font-family: $font-family, sans-serif; font-size: 13px; line-height: 17px; color: #444; }
-body { background: #fff; }
+body { background: #eeeeee; text-shadow: 0.05rem 0.05rem rgba($dark-color, 0.20); -webkit-text-shadow: 0.05rem 0.05rem rgba($dark-color, 0.20); }
 img { border: 0px; display: block; max-width: 100%; }
 a, input { outline: none; }
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
@@ -51,10 +51,18 @@ p { }
 	background-size: cover; 
 }
 
-.bg-white { background: #fff; }
-.white-text { color: #fff; }
+.bg-white { background: $white-color; }
+.white-text { color: $white-color; }
 
 .navbar-brand { padding: 0; }
+.sidebar-menu-btn {
+	transition: all 0.3s; 
+	-webkit-transition: all 0.3s; 
+	margin-left: 15px; 
+	&.menu-open {
+		margin-left: 168px;
+	}
+}
 
 /* horizontal rular */
 .icon {
@@ -86,7 +94,7 @@ p { }
 	text-decoration: none;
 	font-weight: $Bold-text;
 	&.btn-danger {
-		color: #fff;
+		color: $white-color;
 	}
 }
 

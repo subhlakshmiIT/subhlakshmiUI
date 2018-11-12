@@ -1,17 +1,23 @@
 /* Colors */
-$blue:    blue !default;
-$indigo:  indigo !default;
-$purple:  purple !default;
-$pink:    pink !default;
-$red:     #d2b13d !default;
-$orange:  orange !default;
-$yellow:  yellow !default;
-$green:   green !default;
-$teal:    teal !default;
-$cyan:    #17a2b8 !default;
+$blue:    #5C6BC0 !default;
+$indigo:  #7E57C2 !default;
+$purple:  #AB47BC !default;
+$pink:    #EC407A !default;
+$red:     #cd280a !default;
+$orange:  #FF7043 !default;
+$yellow:  #FFEE58 !default;
+$green:   #66BB6A !default;
+$teal:    #26A69A !default;
+$cyan:    #26C6DA !default;
 
 $link-color: #cb210b !default;
-
+$white-color: #ffffff !default;
+$dark-color: #011f41 !default;
+$primary-color1: $cyan !default;
+$primary-color2: $green !default;
+$primary-color3: $indigo !default;
+$primary-color4: $blue !default;
+$primary-color5: $red !default;
 
 /* Border radius */
 $border-radius:               0rem !default;

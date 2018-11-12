@@ -1,5 +1,18 @@
-.headerCntr {
-	
+header {
+	.dropdown-menu {
+		width: 450px;
+	}
+	.dropdown-item {
+		white-space: normal;
+	}
+}
+
+.input-group-search {
+	max-width: 400px;
+	position: absolute;
+	right: 75px;
+	top: 5px;
+
 }
 
 
