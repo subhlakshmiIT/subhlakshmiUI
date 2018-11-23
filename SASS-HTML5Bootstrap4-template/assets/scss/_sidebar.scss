@@ -1,5 +1,6 @@
 .has-sidebar {
 	transition: all 0.3s;
+	padding-top: 49px;
 	&.open {
 		margin-left: 300px;
 	}
@@ -250,8 +251,18 @@
 
 
 /* ####### CSS for Tablet and small Desktop Starts ####### */
-@media only screen and (max-width: 990px) {
-
+@media only screen and (max-width: 991px) {
+	.has-sidebar {
+		&.open {
+			margin-left: 0;
+		}
+	}
+	.slidebar {
+		z-index: 11;
+		background: #fff;
+		&.open {
+		}
+	}
 }
 /* ####### CSS for Tablet and small Desktop Ends ####### */
 

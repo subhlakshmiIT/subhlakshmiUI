@@ -32,6 +32,7 @@
 </head>
 
 <!-- <body class="image-bg min-height-full" style="background-image: url(assets/images/loginbg.jpg)"> -->
+
 <body>
 
     <aside class="slidebar open">
@@ -979,12 +980,12 @@
             <button class="btn btn-outline-danger sidebar-menu-btn menu-open"><span class="oi oi-menu"></span></button>
 
             <div class="input-group input-group-search">
-              <input type="text" class="form-control" placeholder="Search..">
-              <div class="input-group-append">
-                <button class="d-flex align-content-center btn btn-outline-danger" type="button"><i class="material-icons">search</i></button>
-              </div>
+                <input type="text" class="form-control" placeholder="Search..">
+                <div class="input-group-append">
+                    <button class="d-flex align-content-center btn btn-outline-danger" type="button"><i class="material-icons">search</i></button>
+                </div>
             </div>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent" style="min-width: 60px;">
+            <div class="notification-btn navbar-collapse" id="navbarSupportedContent" style="min-width: 60px;">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item dropdown">
                         <a class="nav-link" href="#" dropdown-toggle" data-toggle="dropdown">
@@ -995,7 +996,8 @@
                             <a class="dropdown-item" href="#">Lorem ipsum dolor sit amet, consectetur adipiscing.</a>
                             <a class="dropdown-item" href="#">Consectetur adipiscing elit, sed do eiusmod tempor.</a>
                             <a class="dropdown-item" href="#">Sed do eiusmod tempor incididunt ut labore et dolore.</a>
-                            <a class="dropdown-item" href="#">Do eiusmod tempor incididunt ut labore et dolore magna aliqua.</a>
+                            <a class="dropdown-item" href="#">Do eiusmod tempor incididunt ut labore et dolore magna
+                                aliqua.</a>
                             <a class="dropdown-item" href="#">Incididunt ut labore et dolore magna aliqua.</a>
                             <a class="dropdown-item" href="#">Incididunt ut labore et dolore magna aliqua.</a>
                         </div>
@@ -1008,92 +1010,408 @@
 
     <section class="has-sidebar open">
         <div class="container-fluid">
-            <div class="p-3 mt-3 bg-white">
-                <h3 class="mb-4">Yearly performance</h3>
-                <ul class="nav nav-tabs" id="myTab" role="tablist">
-                    <li class="nav-item">
-                        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab"
-                            aria-controls="home" aria-selected="true">By State</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile"
-                            aria-selected="false">By Branch</a>
-                    </li>
-                </ul>
-                <div class="tab-content" id="myTabContent">
-                    <div class="tab-pane fade show active pt-4" id="home" role="tabpanel" aria-labelledby="home-tab">
-                        <div class="d-flex align-content-center">
-                            <h3>State wise performance</h3>
-                            <div class="text-right ml-auto">
-                                <cite>( As on 07/11/2018 )</cite>
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-6 col-xl-6 col-xs-12 pt-3 mb-0 mb-sm-0 mb-md-3 mb-xl-3">
+                    <div class="p-3 bg-white">
+                        <h4 class="mb-4 pt-2">Yearly performance</h4>
+                        <ul class="nav nav-tabs" id="myTab" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" id="home-tab1" data-toggle="tab" href="#home1" role="tab"
+                                    aria-controls="home1" aria-selected="true">By State</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="profile-tab1" data-toggle="tab" href="#profile1" role="tab"
+                                    aria-controls="profile1" aria-selected="false">By Branch</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content pt-4" id="myTabContent">
+                            <div class="tab-pane fade show active" id="home1" role="tabpanel" aria-labelledby="home-tab1">
+                                <div class="mb-2 d-flex align-content-center">
+                                    <h5 class="mb-2">State wise performance</h5>
+                                    <div class="text-right ml-auto">
+                                        <small>( As on 07/11/2018 )</small>
+                                    </div>
+                                </div>
+                                <table class="table table-bordered">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">#</th>
+                                            <th scope="col">State Name</th>
+                                            <th scope="col">State Name</th>
+                                            <th scope="col">Amount in lakhs</th>
+                                            <th scope="col">Handle</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td>@mdo</td>
+                                            <td>@h</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">2</th>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td>@mdo</td>
+                                            <td>@h</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">3</th>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td>@mdo</td>
+                                            <td>@h</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="tab-pane fade" id="profile1" role="tabpanel" aria-labelledby="profile-tab1">
+                                <div class="mb-2 d-flex align-content-center">
+                                    <h5 class="mb-2">State wise performance</h5>
+                                    <div class="text-right ml-auto">
+                                        <small>( As on 07/11/2018 )</small>
+                                    </div>
+                                </div>
+                                <table class="table table-bordered">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">#</th>
+                                            <th scope="col">State Name</th>
+                                            <th scope="col">State Name</th>
+                                            <th scope="col">Amount in lakhs</th>
+                                            <th scope="col">Handle</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td>@mdo</td>
+                                            <td>@h</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">2</th>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td>@mdo</td>
+                                            <td>@h</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">3</th>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td>@mdo</td>
+                                            <td>@h</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
                             </div>
                         </div>
-                        <hr class="mb-3">
-                        <table class="table table-bordered">
-                            <thead>
-                                <tr>
-                                    <th scope="col">#</th>
-                                    <th scope="col">State Name</th>
-                                    <th scope="col">State Name</th>
-                                    <th scope="col">Amount in lakhs</th>
-                                    <th scope="col">Handle</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <th scope="row">1</th>
-                                    <td>Mark</td>
-                                    <td>Otto</td>
-                                    <td>@mdo</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">2</th>
-                                    <td>Jacob</td>
-                                    <td>Thornton</td>
-                                    <td>@fat</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">3</th>
-                                    <td colspan="2">Larry the Bird</td>
-                                    <td>@twitter</td>
-                                </tr>
-                            </tbody>
-                        </table>
                     </div>
-                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                        <div class="table-responsive">
-                            <div class="text-right py-2">
-                                <cite>( As on 07/11/2018 )</cite>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-xl-6 pt-3 mb-0 mb-sm-0 mb-md-3 mb-xl-3">
+                    <div class="p-3 bg-white">
+                        <h4 class="mb-4 pt-2">Monthly performance</h4>
+                        <ul class="nav nav-tabs" id="myTab" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" id="home-tab2" data-toggle="tab" href="#home2" role="tab"
+                                    aria-controls="home2" aria-selected="true">By State</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="profile-tab2" data-toggle="tab" href="#profile2" role="tab"
+                                    aria-controls="profile2" aria-selected="false">By Branch</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content pt-4" id="myTabContent">
+                            <div class="tab-pane fade show active" id="home2" role="tabpanel" aria-labelledby="home-tab2">
+                                <div class="mb-2 d-flex align-content-center">
+                                    <h5 class="mb-2">State wise performance</h5>
+                                    <div class="text-right ml-auto">
+                                        <small>( As on 07/11/2018 )</small>
+                                    </div>
+                                </div>
+                                <table class="table table-bordered">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">#</th>
+                                            <th scope="col">State Name</th>
+                                            <th scope="col">State Name</th>
+                                            <th scope="col">Amount in lakhs</th>
+                                            <th scope="col">Handle</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td>@mdo</td>
+                                            <td>@h</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">2</th>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td>@mdo</td>
+                                            <td>@h</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">3</th>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td>@mdo</td>
+                                            <td>@h</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
                             </div>
-                            <table class="table table-bordered">
-                                <thead>
-                                    <tr>
-                                        <th scope="col">#</th>
-                                        <th scope="col">First</th>
-                                        <th scope="col">Last</th>
-                                        <th scope="col">Handle</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <th scope="row">1</th>
-                                        <td>Mark</td>
-                                        <td>Otto</td>
-                                        <td>@mdo</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">2</th>
-                                        <td>Jacob</td>
-                                        <td>Thornton</td>
-                                        <td>@fat</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">3</th>
-                                        <td colspan="2">Larry the Bird</td>
-                                        <td>@twitter</td>
-                                    </tr>
-                                </tbody>
-                            </table>
+                            <div class="tab-pane fade" id="profile2" role="tabpanel" aria-labelledby="profile-tab2">
+                                <div class="mb-2 d-flex align-content-center">
+                                    <h5 class="mb-2">State wise performance</h5>
+                                    <div class="text-right ml-auto">
+                                        <small>( As on 07/11/2018 )</small>
+                                    </div>
+                                </div>
+                                <table class="table table-bordered">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">#</th>
+                                            <th scope="col">State Name</th>
+                                            <th scope="col">State Name</th>
+                                            <th scope="col">Amount in lakhs</th>
+                                            <th scope="col">Handle</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td>@mdo</td>
+                                            <td>@h</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">2</th>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td>@mdo</td>
+                                            <td>@h</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">3</th>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td>@mdo</td>
+                                            <td>@h</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-xl-6 pt-3 mb-0 mb-sm-0 mb-md-3 mb-xl-3">
+                    <div class="p-3 bg-white">
+                        <h4 class="mb-4 pt-2">Today's performance</h4>
+                        <ul class="nav nav-tabs" id="myTab" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" id="home-tab3" data-toggle="tab" href="#home3" role="tab"
+                                    aria-controls="home3" aria-selected="true">By State</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="profile-tab3" data-toggle="tab" href="#profile3" role="tab"
+                                    aria-controls="profile3" aria-selected="false">By Branch</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content pt-4" id="myTabContent">
+                            <div class="tab-pane fade show active" id="home3" role="tabpanel" aria-labelledby="home-tab3">
+                                <div class="mb-2 d-flex align-content-center">
+                                    <h5 class="mb-2">State wise performance</h5>
+                                    <div class="text-right ml-auto">
+                                        <small>( As on 07/11/2018 )</small>
+                                    </div>
+                                </div>
+                                <table class="table table-bordered">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">#</th>
+                                            <th scope="col">State Name</th>
+                                            <th scope="col">State Name</th>
+                                            <th scope="col">Amount in lakhs</th>
+                                            <th scope="col">Handle</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td>@mdo</td>
+                                            <td>@h</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">2</th>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td>@mdo</td>
+                                            <td>@h</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">3</th>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td>@mdo</td>
+                                            <td>@h</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="tab-pane fade" id="profile3" role="tabpanel" aria-labelledby="profile-tab3">
+                                <div class="mb-2 d-flex align-content-center">
+                                    <h5 class="mb-2">State wise performance</h5>
+                                    <div class="text-right ml-auto">
+                                        <small>( As on 07/11/2018 )</small>
+                                    </div>
+                                </div>
+                                <table class="table table-bordered">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">#</th>
+                                            <th scope="col">State Name</th>
+                                            <th scope="col">State Name</th>
+                                            <th scope="col">Amount in lakhs</th>
+                                            <th scope="col">Handle</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td>@mdo</td>
+                                            <td>@h</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">2</th>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td>@mdo</td>
+                                            <td>@h</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">3</th>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td>@mdo</td>
+                                            <td>@h</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-xl-6 pt-3 mb-3">
+                    <div class="p-3 bg-white">
+                        <h4 class="mb-4 pt-2">Overall performance</h4>
+                        <ul class="nav nav-tabs" id="myTab" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" id="home-tab4" data-toggle="tab" href="#home4" role="tab"
+                                    aria-controls="home4" aria-selected="true">By State</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="profile-tab4" data-toggle="tab" href="#profile4" role="tab"
+                                    aria-controls="profile4" aria-selected="false">By Branch</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content pt-4" id="myTabContent">
+                            <div class="tab-pane fade show active" id="home4" role="tabpanel" aria-labelledby="home-tab4">
+                                <div class="mb-2 d-flex align-content-center">
+                                    <h5 class="mb-2">State wise performance</h5>
+                                    <div class="text-right ml-auto">
+                                        <small>( As on 07/11/2018 )</small>
+                                    </div>
+                                </div>
+                                <table class="table table-bordered">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">#</th>
+                                            <th scope="col">State Name</th>
+                                            <th scope="col">State Name</th>
+                                            <th scope="col">Amount in lakhs</th>
+                                            <th scope="col">Handle</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td>@mdo</td>
+                                            <td>@h</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">2</th>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td>@mdo</td>
+                                            <td>@h</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">3</th>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td>@mdo</td>
+                                            <td>@h</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="tab-pane fade" id="profile4" role="tabpanel" aria-labelledby="profile-tab4">
+                                <div class="mb-2 d-flex align-content-center">
+                                    <h5 class="mb-2">State wise performance</h5>
+                                    <div class="text-right ml-auto">
+                                        <small>( As on 07/11/2018 )</small>
+                                    </div>
+                                </div>
+                                <table class="table table-bordered">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">#</th>
+                                            <th scope="col">State Name</th>
+                                            <th scope="col">State Name</th>
+                                            <th scope="col">Amount in lakhs</th>
+                                            <th scope="col">Handle</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td>@mdo</td>
+                                            <td>@h</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">2</th>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td>@mdo</td>
+                                            <td>@h</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">3</th>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td>@mdo</td>
+                                            <td>@h</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
                         </div>
                     </div>
                 </div>

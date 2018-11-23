@@ -6512,8 +6512,8 @@ input, select, textarea {
 
 body {
   background: #eeeeee;
-  text-shadow: 0.05rem 0.05rem rgba(1, 31, 65, 0.2);
-  -webkit-text-shadow: 0.05rem 0.05rem rgba(1, 31, 65, 0.2); }
+  text-shadow: 0.03rem 0.03rem rgba(1, 31, 65, 0.2);
+  -webkit-text-shadow: 0.03rem 0.03rem rgba(1, 31, 65, 0.2); }
 
 img {
   border: 0px;
@@ -6559,12 +6559,18 @@ h1, h2, h3, h4, h5, h6, p {
     h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover, p a:hover {
       text-decoration: underline; }
 
+h5 {
+  font-size: 1rem; }
+
 /* paragraphs */
 .full-width {
   width: 100%; }
 
 .min-height-full {
   min-height: 100vh; }
+
+.min-height-page {
+  min-height: calc(100vh - 80px); }
 
 .height-full {
   height: 100vh; }
@@ -6582,13 +6588,6 @@ h1, h2, h3, h4, h5, h6, p {
 
 .navbar-brand {
   padding: 0; }
-
-.sidebar-menu-btn {
-  transition: all 0.3s;
-  -webkit-transition: all 0.3s;
-  margin-left: 15px; }
-  .sidebar-menu-btn.menu-open {
-    margin-left: 168px; }
 
 /* horizontal rular */
 .icon {
@@ -6642,10 +6641,20 @@ h1, h2, h3, h4, h5, h6, p {
   padding-left: 100px;
   padding-right: 100px; }
 
-header .dropdown-menu {
-  width: 450px; }
-header .dropdown-item {
-  white-space: normal; }
+.table th, .table td {
+  font-size: 0.8rem; }
+
+header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 9;
+  box-shadow: 0 0 10px rgba(92, 107, 192, 0.8); }
+  header .dropdown-menu {
+    width: 450px; }
+  header .dropdown-item {
+    white-space: normal; }
 
 .input-group-search {
   max-width: 400px;
@@ -6653,6 +6662,51 @@ header .dropdown-item {
   right: 75px;
   top: 5px; }
 
+.sidebar-menu-btn {
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  margin-left: 15px; }
+  .sidebar-menu-btn.menu-open {
+    margin-left: 168px; }
+
+@media only screen and (max-width: 991px) {
+  .notification-btn {
+    position: absolute;
+    right: 0px;
+    top: 8px;
+    width: 45px;
+    min-width: 0 !important; }
+    .notification-btn .dropdown-menu {
+      left: auto;
+      right: 0;
+      position: absolute;
+      max-width: 320px; }
+
+  .sidebar-menu-btn {
+    position: absolute;
+    left: 75px;
+    top: 8px; }
+    .sidebar-menu-btn.menu-open {
+      margin-left: 15px; }
+      .sidebar-menu-btn.menu-open::after {
+        display: block; }
+    .sidebar-menu-btn:after {
+      display: none;
+      position: fixed;
+      left: 0;
+      top: 0;
+      height: 100%;
+      width: 100%;
+      content: "";
+      z-index: -1;
+      opacity: 0.2;
+      background: #000; }
+
+  .input-group-search {
+    position: relative;
+    right: 40px;
+    top: 0;
+    max-width: calc(100% - 165px); } }
 /* ####### CSS for Login Page Starts ####### */
 .loginbg {
   padding: 0 15px; }
@@ -6695,7 +6749,8 @@ header .dropdown-item {
 /* ####### CSS for Mobile and Tab-mini Starts ####### */
 /* ####### CSS for Mobile and Tab-mini Ends ####### */
 .has-sidebar {
-  transition: all 0.3s; }
+  transition: all 0.3s;
+  padding-top: 49px; }
   .has-sidebar.open {
     margin-left: 300px; }
 
@@ -6882,6 +6937,13 @@ header .dropdown-item {
 /* ####### CSS for Tablet and small Desktop Starts ####### */
 /* ####### CSS for Tablet and small Desktop Ends ####### */
 /* ####### CSS for Tablet and small Desktop Starts ####### */
+@media only screen and (max-width: 991px) {
+  .has-sidebar.open {
+    margin-left: 0; }
+
+  .slidebar {
+    z-index: 11;
+    background: #fff; } }
 /* ####### CSS for Tablet and small Desktop Ends ####### */
 /* ####### CSS for Mobile and Tab-mini Starts ####### */
 /* ####### CSS for Mobile and Tab-mini Ends ####### */
