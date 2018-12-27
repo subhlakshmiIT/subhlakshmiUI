@@ -116,6 +116,15 @@ p { }
 	}
 } 
 
+.profile-pic {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	margin: 0 auto;
+	display: block;
+	overflow: hidden;
+}
 
 @media only screen and (max-width: 1199px)  {
 
@@ -133,4 +142,9 @@ p { }
 }
 
 @media only screen and (max-width: 479px)  {
+}
+
+@media print {
+   .slidebar, header { display: none !important; }
+   .has-sidebar.open { margin-left: 0 !important; }
 }
