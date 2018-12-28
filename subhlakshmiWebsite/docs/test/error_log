@@ -1,0 +1,12 @@
+[26-Apr-2018 08:57:06 UTC] PHP Warning:  include(include/header.php): failed to open stream: No such file or directory in /home/visscous/public_html/subhlakshmi.in/test/index.php on line 1
+[26-Apr-2018 08:57:06 UTC] PHP Warning:  include(): Failed opening 'include/header.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/visscous/public_html/subhlakshmi.in/test/index.php on line 1
+[26-Apr-2018 08:57:06 UTC] PHP Warning:  include(include/footer.php): failed to open stream: No such file or directory in /home/visscous/public_html/subhlakshmi.in/test/index.php on line 410
+[26-Apr-2018 08:57:06 UTC] PHP Warning:  include(): Failed opening 'include/footer.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/visscous/public_html/subhlakshmi.in/test/index.php on line 410
+[26-Apr-2018 08:58:31 UTC] PHP Warning:  include(include/header.php): failed to open stream: No such file or directory in /home/visscous/public_html/subhlakshmi.in/test/index.php on line 1
+[26-Apr-2018 08:58:31 UTC] PHP Warning:  include(): Failed opening 'include/header.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/visscous/public_html/subhlakshmi.in/test/index.php on line 1
+[26-Apr-2018 08:58:31 UTC] PHP Warning:  include(include/footer.php): failed to open stream: No such file or directory in /home/visscous/public_html/subhlakshmi.in/test/index.php on line 410
+[26-Apr-2018 08:58:31 UTC] PHP Warning:  include(): Failed opening 'include/footer.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/visscous/public_html/subhlakshmi.in/test/index.php on line 410
+[26-Apr-2018 08:58:47 UTC] PHP Warning:  include(include/header.php): failed to open stream: No such file or directory in /home/visscous/public_html/subhlakshmi.in/test/index.php on line 1
+[26-Apr-2018 08:58:47 UTC] PHP Warning:  include(): Failed opening 'include/header.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/visscous/public_html/subhlakshmi.in/test/index.php on line 1
+[26-Apr-2018 08:58:47 UTC] PHP Warning:  include(include/footer.php): failed to open stream: No such file or directory in /home/visscous/public_html/subhlakshmi.in/test/index.php on line 410
+[26-Apr-2018 08:58:47 UTC] PHP Warning:  include(): Failed opening 'include/footer.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/visscous/public_html/subhlakshmi.in/test/index.php on line 410
