@@ -129,14 +129,14 @@ Plot No. 55-P, 4th Floor, Sector 44,
   </section>
   <!-- END OF FOOTER -->
 
-  <div class="copyright">
+<!--   <div class="copyright">
     <div class="row">
       <div class="col-sm-12">
-        <p class="text-center">Designed & Developed BY <a href="www.visscous.com">Visscous Inc.</a></p>
+        <p class="text-center">Copyright c <a href="www.subhlakshmi.in">Subhlakshmi Pvt. ltd</a></p>
       </div>
     </div>
   </div>
-
+ -->
   <a href="#top" id="back-to-top"><i class="fa fa-angle-up"></i></a>
 
   <!-- JAVASCRIPT FILES -->
@@ -162,8 +162,8 @@ Plot No. 55-P, 4th Floor, Sector 44,
        //  HEADER SLIDER HOOK
       jQuery('#index-slider2').fadeIn(1000);
       $('#index-slider2').sliderPro({
-      width: 955,
-      height: 610,
+      width: 800,
+      height: 450,
       visibleSize: '100%',
       forceSize: 'fullWidth',
       arrows: true,

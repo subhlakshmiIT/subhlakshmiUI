@@ -7,8 +7,8 @@
   <title>Subhlakshmi</title>
   <link rel="shortcut icon" href="images/favicon.png" />
   <!-- GOOGLE WEB FONTS -->
-  <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Lato:400,100,300,700,900&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i" rel="stylesheet">
   <!-- END OF GOOGLE WEB FONTS -->
 
   <!-- BOOTSTRAP & STYLES -->
@@ -23,7 +23,7 @@
   <link href="css/owl.carousel.css" rel="stylesheet">
   <link href="css/owl.theme.default.min.css" rel="stylesheet">
   <link href="css/slicknav.min.css" rel="stylesheet">
-  <link href="style.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
    <link href="css/magnific-popup.css"  rel="stylesheet">
   <!-- END OF BOOTSTRAP & STYLES -->
   <style type="text/css">
@@ -44,12 +44,13 @@
             <ul class="phone">
               <!--<li><span class="typcn typcn-location-outline"></span>Floor 2, 200, Plot No. 23, Shivaji Marg, Moti Nagar, Delhi-110015</li>-->
               <li><span class="typcn typcn-phone-outline"></span> +91 83778 08085 / +91 11 4902 5921	</li>
-			  <li><div id="google_translate_element"></div><script type="text/javascript">
-function googleTranslateElementInit() {
-  new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'hi,pa', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
-}
-</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script></li>
-
+			        <li>
+                <div id="google_translate_element"></div><script type="text/javascript">
+                function googleTranslateElementInit() {
+                  new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'hi,pa', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+                }
+                </script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+              </li>
             </ul>
           </div>
 		  
@@ -71,7 +72,7 @@ function googleTranslateElementInit() {
           <div class="logonav">
             <div class="row no-gutter">
               <div class="col-sm-3">
-                <div class="logo" style="margin-top: -10px;">
+                <div class="logo">
                   <a href="index.php"><img src="images/logo.png" alt="" /></a>
                 </div>
               </div>
