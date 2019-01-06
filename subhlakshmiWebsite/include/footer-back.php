@@ -1,6 +1,55 @@
     <!-- FOOTER -->
   <section class="footer">
 
+    <div class="footer-elements">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="row no-gutter">
+
+            <!-- FOOTER TOP ELEMENT -->
+            <div class="col-sm-3">
+              <div class="footer-element">
+                <span class="typcn typcn-watch"></span>
+                <p>MONDAY TO SATURDAY<span>09:30 AM - 06:00 PM</span></p>
+              </div>
+            </div>
+            <!-- FOOTER TOP ELEMENT -->
+
+            <!-- FOOTER TOP ELEMENT -->
+            <div class="col-sm-3">
+              <div class="footer-element">
+                <span class="typcn typcn-location-outline"></span>
+                <p>
+Plot No. 55-P, 4th Floor, Sector 44,  
+
+<span>Gurugram 122003 (Haryana)
+</span></p>
+              </div>
+            </div>
+            <!-- FOOTER TOP ELEMENT -->
+
+            <!-- FOOTER TOP ELEMENT -->
+            <div class="col-sm-3">
+              <div class="footer-element">
+                <span class="typcn typcn-mail"></span>
+                <p>E-MAIL:<span><a href="mailto:info@subhlakshmi.in ">info@subhlakshmi.in </a></span></p>
+              </div>
+            </div>
+            <!-- FOOTER TOP ELEMENT -->
+
+            <!-- FOOTER TOP ELEMENT -->
+            <div class="col-sm-3">
+              <div class="footer-element">
+                <span class="typcn typcn-phone-outline"></span>
+                <p>CALL US:<span> +91-8377808085 / +91-1149025921</span></p>
+              </div>
+            </div>
+            <!-- FOOTER TOP ELEMENT -->
+          </div>
+        </div>
+      </div>
+    </div>
+
     <div class="footer-widgets">
       <div class="row">
 
@@ -8,8 +57,13 @@
         <div class="col-sm-3">
           <div class="footer-widget">
             <div class="small-logo"><img src="images/logo-footer.png" alt=""></div>
-            <address>Plot No. 55-P, 4th Floor, Sector 44,  <span>Gurugram 122003 (Haryana)</span></address>
-            <p>Monday To Saturday <br><span> 9:30am - 06:00pm</span></p>
+            <p>rove the financial health of the underserved small and micro entrepreneurs, by supporting them in income-generation activities through financial intermediation.</p>
+            <ul class="social-links">
+              <li><a href="#" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="#" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+              <li><a href="#" title="Pinterest"><i class="fa fa-pinterest-p"></i></a></li>
+            </ul>
           </div>
         </div>
         <!-- END FOOTER WIDGET -->
@@ -17,23 +71,34 @@
         <!-- FOOTER WIDGET -->
         <div class="col-sm-3">
           <div class="footer-widget">
-            <h5>Contact us</h5>
-            <p><strong>E-mail:</strong><br> <span> <a href="mailto:info@subhlakshmi.in ">info@subhlakshmi.in </a></span></p>
-            <br>
-            <p><strong>Call us:</strong> <span> <br>+91-8377808085<br>+91-1149025921</span></p>
+            <h5>RECENT NEWS</h5>
+            <ul class="posts">
+              <li>
+                <a href="#">Front-end processes with effective convergence</a>
+                <span>3 days ago</span>
+              </li>
+              <li>
+                <a href="#">User friendly intellectual capital</a>
+                <span>5 days ago</span>
+              </li>
+              <li><a href="#">Innovate open-source infrastructures</a>
+                <span>1 month ago</span>
+              </li>
+            </ul>
           </div>
         </div>
         <!-- END FOOTER WIDGET -->
 
         <!-- FOOTER WIDGET -->
-        <div class="col-sm-2">
+        <div class="col-sm-3">
           <div class="footer-widget">
             <h5>LINKS</h5>
             <ul class="posts">
-              <li><a href="index.php">Home</a></li>
-              <li><a href="director.php">Team</a></li>
-              <li><a href="career.php">Career</a></li>
-              <li><a href="contact.php">Contact</a></li>
+              <li><a href="#">HOME</a></li>
+              <li><a href="#">SERVICES</a></li>
+              <li><a href="#">PROJECTS</a></li>
+              <li><a href="#">BLOG</a></li>
+              <li><a href="#">CONTACT</a></li>
             </ul>
           </div>
         </div>
@@ -41,7 +106,7 @@
 
 
         <!-- FOOTER WIDGET -->
-        <div class="col-sm-4">
+        <div class="col-sm-3">
           <div class="footer-widget">
             <h5>NEWSLETTER</h5>
             <p>Enter your e-mail and subscribe to our newsletter</p>
@@ -138,7 +203,7 @@
               }
             }
           });
-     
+	   
           //  CLIENTS CAROUSEL HOOK
           $('#clients-carousel').owlCarousel({
             loop: true,
@@ -246,18 +311,18 @@ jQuery(document).ready(function($) {
     })
       });
 
-// $('.lightbox').magnificPopup({
-//       type: 'image',
-//       gallery:{
-//         enabled:true
-//       },
-//       retina: {
-//         ratio: 1,
-//         replaceSrc: function(item, ratio) {
-//           return item.src.replace(/\.\w+$/, function(m) { return '@2x' + m; });
-//     } // function that changes image source
-//   }
-// });
+$('.lightbox').magnificPopup({
+      type: 'image',
+      gallery:{
+        enabled:true
+      },
+      retina: {
+        ratio: 1,
+        replaceSrc: function(item, ratio) {
+          return item.src.replace(/\.\w+$/, function(m) { return '@2x' + m; });
+    } // function that changes image source
+  }
+});
 
   </script>
   
