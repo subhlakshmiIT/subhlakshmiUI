@@ -22,13 +22,13 @@ jQuery(document).ready(function($) {
 
   // ______________ FIXED MENU AT SCROLL
 
-var nav = $('.header-navigation');
+var nav = $('.header.header2');
 if ($(window).width() > 767) {
   $(window).scroll(function () {
-   if ($(this).scrollTop() > 200) {
-     nav.addClass("f-nav fadeindown");
+   if ($(this).scrollTop() > 0) {
+     nav.addClass("f-nav");
    } else {
-     nav.removeClass("f-nav fadeindown");
+     nav.removeClass("f-nav");
    }
  });
 }

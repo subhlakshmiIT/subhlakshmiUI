@@ -73,6 +73,7 @@
   </div>
  -->
   <a href="#top" id="back-to-top"><i class="fa fa-angle-up"></i></a>
+</div>
 
   <!-- JAVASCRIPT FILES -->
   <script src="js/jquery.min.js"></script>
@@ -96,26 +97,26 @@
 
        //  HEADER SLIDER HOOK
       jQuery('#index-slider2').fadeIn(1000);
-      $('#index-slider2').sliderPro({
-      width: 800,
-      height: 450,
-      visibleSize: '100%',
-      forceSize: 'fullWidth',
-      arrows: true,
-      autoplay: true,
-      autoplayDelay: 8500,
-      autoplayOnHover: 'none',
-      slideDistance: 0,
-      breakpoints: {
-        1025: {
-             width: '75%'
-        },
-        500: {
-            width: '100%',
-            arrows: false
-        }
-    }
-});
+        $('#index-slider2').sliderPro({
+          width: 1280,
+          height: 600,
+          visibleSize: '100%',
+//          forceSize: 'fullWidth',
+          arrows: true,
+          autoplay: true,
+          autoplayDelay: 8500,
+          autoplayOnHover: 'none',
+          slideDistance: 0
+        //   breakpoints: {
+        //     1025: {
+        //          width: '75%'
+        //     },
+        //     500: {
+        //         width: '100%',
+        //         arrows: false
+        //     }
+        // }
+    });
 
           //  TESTIMONIALS CAROUSEL HOOK
           $('#customers-testimonials').owlCarousel({

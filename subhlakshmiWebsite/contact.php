@@ -31,7 +31,7 @@
 <!--  END OF ICON BOXES -->
 <!--  FORM -->
 <!--info@subhlakshmi.in-->
-<section class="contact-form">
+<section class="contact-form bg-red">
    <div class="row">
       <div class="col-sm-12">
          <h2>SEND US A <span>MESSAGE</span></h2>
@@ -60,5 +60,7 @@
    </div>
 </section>
 <!--  END OF FORM -->
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3500.791767877808!2d77.15657321445009!3d28.66595298240462!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d025798555555%3A0x132705397a26a0e9!2sSUBHLAKSHMI+FINANCE+PVT.+LTD.!5e0!3m2!1sen!2sin!4v1496873336032" width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3507.886528073274!2d77.06750531455546!3d28.452836798943075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d18edbf4eb5bf%3A0xa4bb7915eb58cd7!2s55%2C+Sector+44%2C+Gurugram%2C+Haryana+122003!5e0!3m2!1sen!2sin!4v1550174089688" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+<!-- 
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3500.791767877808!2d77.15657321445009!3d28.66595298240462!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d025798555555%3A0x132705397a26a0e9!2sSUBHLAKSHMI+FINANCE+PVT.+LTD.!5e0!3m2!1sen!2sin!4v1496873336032" width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe> -->
 <?php include "include/footer.php"; ?>

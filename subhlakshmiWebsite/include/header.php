@@ -35,7 +35,7 @@
 
 <body>
   <!-- HEADER -->
-
+<div class="wrapper">
     <div class="header header2">
       <!-- TOP BAR -->
       <div class="topbar">
